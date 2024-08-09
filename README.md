@@ -1,2 +1,2 @@
-# iot.institute
-Internet of Things (IoT) Institute
+# IoT Guide
+Internet of Things (IoT) Guide
