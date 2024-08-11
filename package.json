@@ -1,3 +1,28 @@
-"scripts": {
-  "deploy": "GIT_USER=MayurDighe USE_SSH=true npm run deploy"
-}
+{
+    "name": "iotguide",
+    "version": "1.0.0",
+    "description": "Internet of Things (IoT) documentation site",
+    "main": "index.js",
+    "scripts": {
+      "start": "docusaurus start",
+      "build": "docusaurus build",
+      "serve": "docusaurus serve",
+      "deploy": "GIT_USER=MayurDighe USE_SSH=true npm run deploy"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MayurDighe/iotguide.git"
+    },
+    "keywords": [
+      "docusaurus",
+      "documentation",
+      "iot"
+    ],
+    "author": "Mayur Dighe",
+    "license": "MIT",
+    "dependencies": {
+      "@docusaurus/core": "^3.5.0",
+      "@docusaurus/preset-classic": "^3.5.0"
+    }
+  }
+  
