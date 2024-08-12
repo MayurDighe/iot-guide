@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Internet of Things (IoT)',
   tagline: 'Exploring the Connected World',
-  url: 'https://mayurdighe.github.io/iotguide/',
+  url: 'https://iotguide.in/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
