@@ -1,26 +1,25 @@
 {
-    "name": "Docusaurus Development Container",
-    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
-    "features": {
-      "ghcr.io/devcontainers/features/node:1": {
-        "version": "18"
-      }
-    },
-    "postCreateCommand": "npm install",
-    "customizations": {
-      "vscode": {
-        "extensions": [
-          "dbaeumer.vscode-eslint",
-          "esbenp.prettier-vscode"
-        ]
-      }
-    },
-    "forwardPorts": [3000],
-    "portsAttributes": {
-      "3000": {
-        "label": "Docusaurus",
-        "onAutoForward": "openBrowser"
-      }
+  "name": "Docusaurus Development Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    }
+  },
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Docusaurus",
+      "onAutoForward": "openBrowser"
     }
   }
-  
+}
