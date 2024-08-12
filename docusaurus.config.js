@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Internet of Things (IoT)',
+  title: 'Internet of Things (IoT) Guide',
   tagline: 'Exploring the Connected World',
   url: 'https://iotguide.in/',
   baseUrl: '/',
